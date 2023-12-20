@@ -85,9 +85,19 @@
     background-color: #404BBF;
 }
 
-.advantages-title {
-    visibility: hidden;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
+
 .advantages-title-item {
     color: #2E2F42;
     font-size: 20px;
@@ -119,6 +129,10 @@
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+}
+
+.team-list {
+    list-style: none;
 }
 
 .team-name {
