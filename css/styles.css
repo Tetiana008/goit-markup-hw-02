@@ -8,7 +8,10 @@
     text-decoration: none;
 }
 
-.ul, .ol {
+.ul {
+    list-style: none;
+}
+.ol {
     list-style: none;
 }
 
@@ -107,7 +110,7 @@
     background: #F4F4FD;
 }
 
-.team-photo {
+.team-player {
     background-color: #FFFFFF;
 }
 
