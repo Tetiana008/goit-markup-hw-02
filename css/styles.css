@@ -1,14 +1,14 @@
-body {
+.body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #fff;
 }
 
-a {
+.a {
     text-decoration: none;
 }
 
-ul, ol {
+.ul, .ol {
     list-style: none;
 }
 
@@ -83,6 +83,7 @@ ul, ol {
 .button:hover,
 .button:focus {
     color: #404BBF;
+}
 
 .advantages-title {
     visibility: hidden;
