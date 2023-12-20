@@ -61,13 +61,15 @@ ul, ol {
 
 .title-item {
     color: #FFF;
+    text-align: center;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
 }
 
 .button {
+    font-family: "Roboto", sans-serif;
     background-color: #4D5AE5;
     cursor: pointer;
     color: #FFF;
@@ -75,7 +77,12 @@ ul, ol {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+
 }
+
+.button:hover,
+.button:focus {
+    color: #404BBF;
 
 .advantages-title {
     visibility: hidden;
@@ -92,14 +99,15 @@ ul, ol {
     color: #434455;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02px;
+    letter-spacing: 0.02em;
 }
 
 .team {
     background: #F4F4FD;
 }
 .team-item {
-    color: #2E2F42;
+    color: #2e2f42;
+    text-align: center;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -124,6 +132,7 @@ ul, ol {
 
 .apps {
     color: #2E2F42;
+    text-align: center;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
