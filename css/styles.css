@@ -4,11 +4,11 @@
     background-color: #fff;
 }
 
-.a {
+a {
     text-decoration: none;
 }
 
-.ul {
+ul {
     list-style: none;
 }
 
@@ -120,10 +120,6 @@
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-}
-
-.team-list {
-    list-style: none;
 }
 
 .team-name {
